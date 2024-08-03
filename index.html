@@ -7,24 +7,33 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Federico Bono</title>
 	
-	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
 	
-	<div class="w-screen py-14 px-10 lg:p-24">
+	<div class="w-screen py-14 px-8 lg:p-24">
 		<h1 class='font-medium text-4xl lg:text-5xl text-gray-900 lg:max-w-xl'>
 			Hello, I'm Federico Bono<br class="hidden md:block"/>
-			a software developer in Milan, Italy.
+			a software engineer in Europe.
 		</h1>
-		<h2 class="font-light text-lg text-gray-900 mt-12">
+		<h2 class="font-light text-lg text-gray-900 mt-6">
 			Currently building a <a href='https://www.quattroapp.cloud' class="font-medium text-red-500 hover:text-red-600 underline">business management SaaS</a> and
 			<a href='https://app-endet.federicobono.me' class="font-medium text-red-500 hover:text-red-600 underline">Endet</a>.
 		</h2>
 		<h2 class="font-light text-lg text-gray-900">
 			Computer Science and Engineering - EIT Digital student @ Politecnico di Milano and KTH Stockholm.
 		</h2>
+		<div class="mt-6 lg:mt-12">
+			<h2 class="font-light opacity-40 text-sm">Recent updates:</h2>
+			<div class="grid grid-cols-12 gap-8 mt-1">
+				<a href="https://arxiv.org/abs/2407.18760" class="col-span-12 lg:col-span-6 border px-3 py-2 lg:px-4 lg:py-3 rounded-lg hover:border-red-600 hover:bg-red-50">
+					<span class="font-medium line-clamp-2">Java-Class-Hijack: Software Supply Chain Attack for Java based
+						on Maven Dependency Resolution and Java Classloading</span>
+					<p class="line-clamp-6 mt-1.5 text-sm text-gray-600 font-light">We introduce Java-Class-Hijack, a novel software supply chain attack that enables an attacker to inject malicious code by crafting a class that shadows a legitimate class that is in the dependency tree. We describe the attack, provide a proof-of-concept demonstrating its feasibility, and replicate it in the German Corona-Warn-App server application. The proof-of-concept illustrates how a transitive dependency deep within the dependency tree can hijack a class from a direct dependency and entirely alter its behavior, posing a significant security risk to Java applications. The replication on the Corona-Warn-App demonstrates how compromising a small JSON validation library could result in a complete database takeover.</p>
+				</a>
+			</div>
+		</div>
 		<div class="mt-12 flex items-center text-white space-x-4">
 			<a target="_blank" href="https://github.com/FredBonux" class="opacity-50 hover:opacity-100">
 				<img src="https://img.icons8.com/ios-glyphs/80/000000/github.png" class="w-10"/>
