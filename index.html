@@ -6,56 +6,104 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Federico Bono</title>
-	
+
 	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-	
+
 	<div class="w-screen pb-12 p-4 lg:p-24 max-w-3xl mx-auto">
 		<h1 class='font-medium text-4xl lg:text-5xl text-gray-900 lg:max-w-xl'>
-			Hello, I'm Federico Bono,<br class="hidden md:block"/>
+			Hello, I'm Federico Bono,<br class="hidden md:block" />
 			a software engineer in Europe.
 		</h1>
 		<div class="mt-6 lg:mt-12">
 			<div class="grid grid-cols-12 gap-3 mt-1">
 				<h2 class="text-sm opacity-30 font-light text-center col-span-12">Recent work</h2>
-				<a href="https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835" class="col-span-12 flex flex-col border px-4 py-3 lg:px-5 lg:py-4 rounded-lg hover:border-blue-600 hover:bg-blue-50">
+				<a href="https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835"
+					class="col-span-12 flex flex-col border px-4 py-3 lg:px-5 lg:py-4 rounded-lg hover:border-blue-600 hover:bg-blue-50">
 					<span class="text-xs font-light text-blue-600">se:kth:diva-354835</span>
-					<span class="text-justify leading-tight">Automatic Program Repair For Breaking Dependency Updates With Large Language Models</span>
-						<div class="flex items-center gap-2 flex-wrap text-xs font-bold text-blue-600">
-							<span>#automatic-program-repair</span>
-							<span>#software-supply-chain</span>
-							<span>#large-language-models</span>
-						</div>
-					<p class="text-justify leading-tight line-clamp-[8] lg:line-clamp-6 mt-1.5 text-sm text-gray-600 font-light">External libraries are widely used to expedite software development, but like any software component, they are updated over time, introducing new features and deprecating or removing old ones. When a library introduces breaking changes, all its clients must be updated to avoid disruptions. This update, when it introduces a breaking change, is defined as a Breaking Dependency Update. Repairing such breakages is challenging and time-consuming because the error originates in the dependency, while the fix must be applied to the client codebase. Automatic Program Repair (APR) is a research area focused on developing techniques to repair code failures without human intervention. With the advent of Large Language Models (LLMs), learning-based APR techniques have significantly improved in software repair tasks. However, their effectiveness on Breaking Dependency Updates remains unexplored. This thesis aims to investigate the efficacy of an LLM-based APR approach to Breaking Dependency Updates and to examine the impact of different components on the model’s performance and efficiency. The focus is on the API differences between the old and new versions of the dependency and a set of error-type specific repair strategies. Experiments conducted on a subset of BUMP, a new benchmark for Breaking Dependency Updates, with a strong focus on build failures, demonstrate that a naive approach to these client breakages is insufficient. Additional context from the dependency changes is necessary. Furthermore, error-type specific repair strategies are essential to repair some blocking failures that prevent the tool from completely repairing the projects. Finally, our research found that GPT-4, Gemini, and Llama exhibit similar efficacy levels but differ significantly in cost-efficiency, with GPT-4 having the highest cost per repaired failure among the tested models, almost 30 times higher than Gemini.</p>
+					<span class="text-justify leading-tight">Automatic Program Repair For Breaking Dependency Updates
+						With Large Language Models</span>
+					<div class="flex items-center gap-2 flex-wrap text-xs font-bold text-blue-600">
+						<span>#automatic-program-repair</span>
+						<span>#software-supply-chain</span>
+						<span>#large-language-models</span>
+					</div>
+					<p
+						class="text-justify leading-tight line-clamp-[8] lg:line-clamp-6 mt-1.5 text-sm text-gray-600 font-light">
+						External libraries are widely used to expedite software development, but like any software
+						component, they are updated over time, introducing new features and deprecating or removing old
+						ones. When a library introduces breaking changes, all its clients must be updated to avoid
+						disruptions. This update, when it introduces a breaking change, is defined as a Breaking
+						Dependency Update. Repairing such breakages is challenging and time-consuming because the error
+						originates in the dependency, while the fix must be applied to the client codebase. Automatic
+						Program Repair (APR) is a research area focused on developing techniques to repair code failures
+						without human intervention. With the advent of Large Language Models (LLMs), learning-based APR
+						techniques have significantly improved in software repair tasks. However, their effectiveness on
+						Breaking Dependency Updates remains unexplored. This thesis aims to investigate the efficacy of
+						an LLM-based APR approach to Breaking Dependency Updates and to examine the impact of different
+						components on the model’s performance and efficiency. The focus is on the API differences
+						between the old and new versions of the dependency and a set of error-type specific repair
+						strategies. Experiments conducted on a subset of BUMP, a new benchmark for Breaking Dependency
+						Updates, with a strong focus on build failures, demonstrate that a naive approach to these
+						client breakages is insufficient. Additional context from the dependency changes is necessary.
+						Furthermore, error-type specific repair strategies are essential to repair some blocking
+						failures that prevent the tool from completely repairing the projects. Finally, our research
+						found that GPT-4, Gemini, and Llama exhibit similar efficacy levels but differ significantly in
+						cost-efficiency, with GPT-4 having the highest cost per repaired failure among the tested
+						models, almost 30 times higher than Gemini.</p>
 				</a>
-				<a href="https://arxiv.org/abs/2407.18760" class="col-span-12 flex flex-col border px-4 py-3 lg:px-5 lg:py-4 rounded-lg hover:border-red-600 hover:bg-red-50">
+				<a href="https://arxiv.org/abs/2407.18760"
+					class="col-span-12 flex flex-col border px-4 py-3 lg:px-5 lg:py-4 rounded-lg hover:border-red-600 hover:bg-red-50">
 					<span class="text-xs font-light text-red-600">arXiv:2407.18760</span>
-					<span class="text-justify leading-tight">Java-Class-Hijack: Software Supply Chain Attack for Java based
+					<span class="text-justify leading-tight">Java-Class-Hijack: Software Supply Chain Attack for Java
+						based
 						on Maven Dependency Resolution and Java Classloading</span>
-						<div class="flex items-center gap-2 flex-wrap text-xs font-bold text-red-600">
-							<span>#security</span>
-							<span>#software-supply-chain</span>
-							<span>#attack</span>
-						</div>
-					<p class="text-justify leading-tight line-clamp-[8] lg:line-clamp-6 mt-1.5 text-sm text-gray-600 font-light">We introduce Java-Class-Hijack, a novel software supply chain attack that enables an attacker to inject malicious code by crafting a class that shadows a legitimate class that is in the dependency tree. We describe the attack, provide a proof-of-concept demonstrating its feasibility, and replicate it in the German Corona-Warn-App server application. The proof-of-concept illustrates how a transitive dependency deep within the dependency tree can hijack a class from a direct dependency and entirely alter its behavior, posing a significant security risk to Java applications. The replication on the Corona-Warn-App demonstrates how compromising a small JSON validation library could result in a complete database takeover.</p>
+					<div class="flex items-center gap-2 flex-wrap text-xs font-bold text-red-600">
+						<span>#security</span>
+						<span>#software-supply-chain</span>
+						<span>#attack</span>
+					</div>
+					<p
+						class="text-justify leading-tight line-clamp-[8] lg:line-clamp-6 mt-1.5 text-sm text-gray-600 font-light">
+						We introduce Java-Class-Hijack, a novel software supply chain attack that enables an attacker to
+						inject malicious code by crafting a class that shadows a legitimate class that is in the
+						dependency tree. We describe the attack, provide a proof-of-concept demonstrating its
+						feasibility, and replicate it in the German Corona-Warn-App server application. The
+						proof-of-concept illustrates how a transitive dependency deep within the dependency tree can
+						hijack a class from a direct dependency and entirely alter its behavior, posing a significant
+						security risk to Java applications. The replication on the Corona-Warn-App demonstrates how
+						compromising a small JSON validation library could result in a complete database takeover.</p>
 				</a>
-				<a target="_blank" href="https://toast.federicobono.me" class="col-span-6 flex items-center justify-center border px-3 py-2 lg:px-4 lg:py-3 rounded-lg hover:border-yellow-600">
+				<a target="_blank" href="https://toast.federicobono.me"
+					class="col-span-6 flex items-center justify-center border px-3 py-2 lg:px-4 lg:py-3 rounded-lg hover:border-yellow-600">
 					<span>Toast</span>
 				</a>
-				<a target="_blank" href="https://endet.federicobono.me" class="col-span-6 flex items-center justify-center border px-3 py-2 lg:px-4 lg:py-3 rounded-lg hover:border-pink-600">
+				<a target="_blank" href="https://endet.federicobono.me"
+					class="col-span-6 flex items-center justify-center border px-3 py-2 lg:px-4 lg:py-3 rounded-lg hover:border-pink-600">
 					<span>Endet</span>
 				</a>
 
 				<h2 class="mt-12 text-sm opacity-30 font-light text-center col-span-12">About me</h2>
 				<div class="col-span-12 flex flex-col border px-4 py-3 lg:px-5 lg:py-4 rounded-lg">
-					<span class="text-xs font-light text-blue-600">July 2017 - Now</span>
-					<span class="line-clamp-2 lg:line-clamp-3 leading-tight">Freelance Software Engineer @ QuattroApp</span>
-					<p class="text-justify leading-tight line-clamp-[12] lg:line-clamp-6 mt-1.5 text-sm text-gray-600 font-light">Developed a cloud-based full-stack application with 15+ modules using Laravel, React, Tailwind, MySQL and Docker to manage the delivery process of a SME. 
-						Designed a SQL database schema to manage all the information and reduced data inconsistencies by more than 85% from the previous system
-						Implemented a REST API to allow communication with third-party apps reducing by 35% the time needed to switch to the new platform
-						Built a mobile app using React Native to allow warehouse workers to insert data into the system, eliminating 65% of the interactions between the warehouse and the back-office
+					<span class="text-xs font-light text-blue-600">Very soon...</span>
+					<span class="line-clamp-2 lg:line-clamp-3 leading-tight">Software Engineer @ ---</span>
+				</div>
+				<div class="col-span-12 flex flex-col border px-4 py-3 lg:px-5 lg:py-4 rounded-lg">
+					<span class="text-xs font-light text-gray-600">July 2017 - May 2025</span>
+					<span class="line-clamp-2 lg:line-clamp-3 leading-tight">Freelance Software Engineer @
+						QuattroApp</span>
+					<p
+						class="text-justify leading-tight line-clamp-[12] lg:line-clamp-6 mt-1.5 text-sm text-gray-600 font-light">
+						Developed a cloud-based full-stack application with 25+ modules using Laravel, React, Tailwind,
+						MySQL and Docker to manage the order and delivery process of a SME.
+						Designed a SQL database schema to manage all the information and reduced data inconsistencies by
+						more than 85% from the previous system.
+						Implemented a REST API to allow communication with third-party apps reducing by 35% the time
+						needed to switch to the new platform.
+						Built a mobile app using React Native to allow warehouse workers to insert data into the system,
+						eliminating 65% of the interactions between the warehouse and the back-office.
 						Increased the number of orders processed by the company by 10% YoY.</p>
 				</div>
 				<div class="col-span-12 flex flex-col border px-4 py-3 lg:px-5 lg:py-4 rounded-lg">
@@ -63,19 +111,31 @@
 					<span class="line-clamp-2 lg:line-clamp-3 leading-tight">SDE Intern @ Amazon</span>
 				</div>
 				<div class="col-span-12 flex flex-col border px-4 py-3 lg:px-5 lg:py-4 rounded-lg">
-					<span class="text-justify line-clamp-1 text-xs font-light text-green-800">Master Degree in Computer science and engineering</span>
-					<span class="text-justify line-clamp-2 lg:line-clamp-3 leading-tight">KTH & Politecnico di Milano</span>
-					<p class="text-justify leading-tight line-clamp-[8] lg:line-clamp-6 mt-1.5 text-sm text-gray-600 font-light">Double Master degree in computer science and engineering, with a focus on Data Science and Machine Learning. Minor in ICT Innovation with focus in startup development and digital innovation.</p>
+					<span class="text-justify line-clamp-1 text-xs font-light text-green-800">Master Degree in Computer
+						science and engineering</span>
+					<span class="text-justify line-clamp-2 lg:line-clamp-3 leading-tight">KTH & Politecnico di
+						Milano</span>
+					<p
+						class="text-justify leading-tight line-clamp-[8] lg:line-clamp-6 mt-1.5 text-sm text-gray-600 font-light">
+						Double Master degree in computer science and engineering, with a focus on Data Science and
+						Machine Learning. Minor in ICT Innovation with focus in startup development and digital
+						innovation.</p>
 				</div>
-				
-				<a target="_blank" href="https://github.com/FredBonux" class="opacity-50 hover:opacity-100 col-span-4 flex items-center justify-center border px-3 py-2 lg:px-4 lg:py-3 rounded-lg">
-					<img src="https://img.icons8.com/ios-glyphs/80/000000/github.png" class="w-10 h-10 lg:w-12 lg:h-12"/>
+
+				<a target="_blank" href="https://github.com/FredBonux"
+					class="opacity-50 hover:opacity-100 col-span-4 flex items-center justify-center border px-3 py-2 lg:px-4 lg:py-3 rounded-lg">
+					<img src="https://img.icons8.com/ios-glyphs/80/000000/github.png"
+						class="w-10 h-10 lg:w-12 lg:h-12" />
 				</a>
-				<a target="_blank" href="https://twitter.com/federico_bono" class="opacity-50 hover:opacity-100 col-span-4 flex items-center justify-center border px-3 py-2 lg:px-4 lg:py-3 rounded-lg">
-					<img src="https://img.icons8.com/ios-glyphs/80/000000/twitter--v1.png" class="w-10 h-10 lg:w-12 lg:h-12"/>
+				<a target="_blank" href="https://twitter.com/federico_bono"
+					class="opacity-50 hover:opacity-100 col-span-4 flex items-center justify-center border px-3 py-2 lg:px-4 lg:py-3 rounded-lg">
+					<img src="https://img.icons8.com/ios-glyphs/80/000000/twitter--v1.png"
+						class="w-10 h-10 lg:w-12 lg:h-12" />
 				</a>
-				<a target="_blank" href="https://www.linkedin.com/in/federico-bono/" class="opacity-50 hover:opacity-100 col-span-4 flex items-center justify-center border px-3 py-2 lg:px-4 lg:py-3 rounded-lg">
-					<img src="https://img.icons8.com/ios-glyphs/80/000000/linkedin.png" class="w-10 h-10 lg:w-12 lg:h-12"/>
+				<a target="_blank" href="https://www.linkedin.com/in/federico-bono/"
+					class="opacity-50 hover:opacity-100 col-span-4 flex items-center justify-center border px-3 py-2 lg:px-4 lg:py-3 rounded-lg">
+					<img src="https://img.icons8.com/ios-glyphs/80/000000/linkedin.png"
+						class="w-10 h-10 lg:w-12 lg:h-12" />
 				</a>
 			</div>
 		</div>
