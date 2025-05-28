@@ -20,6 +20,39 @@
 		<div class="mt-6 lg:mt-12">
 			<div class="grid grid-cols-12 gap-3 mt-1">
 				<h2 class="text-sm opacity-30 font-light text-center col-span-12">Recent work</h2>
+				<a href="https://arxiv.org/abs/2505.07522"
+					class="col-span-12 flex flex-col border px-4 py-3 lg:px-5 lg:py-4 rounded-lg hover:border-red-600 hover:bg-red-50">
+					<span class="text-xs font-light text-red-600">arXiv:2505.07522</span>
+					<span class="text-justify leading-tight">
+						Byam: Fixing Breaking Dependency Updates with Large Language Models
+					</span>
+					<div class="flex items-center gap-2 flex-wrap text-xs font-bold text-red-600">
+						<span>#automatic-program-repair</span>
+						<span>#software-supply-chain</span>
+						<span>#large-language-models</span>
+					</div>
+					<p
+						class="text-justify leading-tight line-clamp-[8] lg:line-clamp-6 mt-1.5 text-sm text-gray-600 font-light">
+						Application Programming Interfaces (APIs) facilitate the integration of third-party dependencies
+						within the code of client applications. However, changes to an API, such as deprecation,
+						modification of parameter names or types, or complete replacement with a new API, can break
+						existing client code. These changes are called breaking dependency updates; It is often tedious
+						for API users to identify the cause of these breaks and update their code accordingly. In this
+						paper, we explore the use of Large Language Models (LLMs) to automate client code updates in
+						response to breaking dependency updates. We evaluate our approach on the BUMP dataset, a
+						benchmark for breaking dependency updates in Java projects. Our approach leverages LLMs with
+						advanced prompts, including information from the build process and from the breaking dependency
+						analysis. We assess effectiveness at three granularity levels: at the build level, the file
+						level, and the individual compilation error level. We experiment with five LLMs: Google
+						Gemini-2.0 Flash, OpenAI GPT4o-mini, OpenAI o3-mini, Alibaba Qwen2.5-32b-instruct, and DeepSeek
+						V3. Our results show that LLMs can automatically repair breaking updates. Among the considered
+						models, OpenAI's o3-mini is the best, able to completely fix 27% of the builds when using
+						prompts that include contextual information such as the buggy line, API differences, error
+						messages, and step-by-step reasoning instructions. Also, it fixes 78% of the individual
+						compilation errors. Overall, our findings demonstrate the potential for LLMs to fix compilation
+						errors due to breaking dependency updates, supporting developers in their efforts to stay
+						up-to-date with changes in their dependencies.</p>
+				</a>
 				<a href="https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835"
 					class="col-span-12 flex flex-col border px-4 py-3 lg:px-5 lg:py-4 rounded-lg hover:border-blue-600 hover:bg-blue-50">
 					<span class="text-xs font-light text-blue-600">se:kth:diva-354835</span>
